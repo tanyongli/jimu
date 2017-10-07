@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #f1ffe6;
+}
+.container {
+  width: 950px;
+  margin: 70px auto 0px auto;
+  text-align: center;
+}
+.container .emoji-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-column-align: center;
+  justify-items: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.container .emoji-container .icon {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.container .emoji-container .icon:nth-child(6n) {
+  margin-right: 0px;
+}
+.icon {
+  width: 125px;
+  height: 120px;
+  position: relative;
+}
+.icon .frog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.icon .frog .body {
+  width: 110px;
+  height: 86px;
+  background-color: #a3d768;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 4px 4px 0px 0px rgba(163,215,104,0.3);
+}
+.icon .frog .body .mouth {
+  margin: auto;
+}
+.icon .frog .eyes {
+  width: 86px;
+  height: 35px;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.icon .frog .eyes .eye {
+  width: 35px;
+  height: 35px;
+}
+.icon .frog .eyes .eye:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #a3d768;
+  border-radius: 50%;
+}
+.icon .frog .eyes .eye .eye-inner {
+  background-color: #fff;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 50%;
+}
+.icon .frog .eyes .eye .eye-inner .pupil {
+  background-color: #3f6a34;
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border-radius: 50%;
+}
+.icon .frog .eyes .eye .eye-inner .pupil .light {
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 50%;
+}
+.icon .frog .eyes .eye-left {
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+.icon .frog .eyes .eye-right {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+.frog#frog-1 .body .mouth {
+  width: 18px;
+  height: 22px;
+  border-bottom: 3px solid #3f6a34;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  -webkit-animation: smile 3.8s linear 0s infinite;
+  animation: smile 3.8s linear 0s infinite;
+}
+@-moz-keyframes smile {
+  0% {
+    border-radius: 0%;
+  }
+  20% {
+    border-radius: 50%;
+  }
+  70% {
+    border-radius: 50%;
+  }
+}
+@-webkit-keyframes smile {
+  0% {
+    border-radius: 0%;
+  }
+  20% {
+    border-radius: 50%;
+  }
+  70% {
+    border-radius: 50%;
+  }
+}
+@-o-keyframes smile {
+  0% {
+    border-radius: 0%;
+  }
+  20% {
+    border-radius: 50%;
+  }
+  70% {
+    border-radius: 50%;
+  }
+}
+@keyframes smile {
+  0% {
+    border-radius: 0%;
+  }
+  20% {
+    border-radius: 50%;
+  }
+  70% {
+    border-radius: 50%;
+  }
+}

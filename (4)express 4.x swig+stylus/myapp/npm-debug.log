@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\Program Files\\node.js\\node.exe',
+1 verbose cli   'F:\\Program Files\\node.js\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle myapp@0.0.0~prestart: myapp@0.0.0
+6 silly lifecycle myapp@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle myapp@0.0.0~start: myapp@0.0.0
+8 verbose lifecycle myapp@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle myapp@0.0.0~start: PATH: F:\Program Files\node.js\node_modules\npm\bin\node-gyp-bin;C:\Users\asusj\Desktop\(4)express 4.x swig+stylus\myapp\node_modules\.bin;c:\programdata\oracle\java\javapath;c:\program files\broadcom\broadcom 802.11 network adapter;c:\program files (x86)\nvidia corporation\physx\common;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\wbem;C:\WINDOWS\system32\windowspowershell\v1.0\;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;c:\program files (x86)\intel\intel(r) management engine components\ipt;c:\program files\widcomm\bluetooth software\;c:\program files\widcomm\bluetooth software\syswow64;c:\program files\microsoft\web platform installer\;c:\program files (x86)\microsoft asp.net\asp.net web pages\v1.0\;c:\program files (x86)\windows kits\8.0\windows performance toolkit\;c:\program files\microsoft sql server\110\tools\binn\;%quartus_rootdir%\bin;F:\matlab2\bin\win32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;F:\Program Files (x86)\Rational\common;F:\Program Files\git-2.8.1-64-bit\Git\cmd;F:\Program Files\node.js\;C:\Users\asusj\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\asusj\AppData\Local\Programs\Python\Python36-32\;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;F:\lint;C:\Users\asusj\AppData\Local\atom\bin;C:\Users\asusj\AppData\Roaming\npm
+10 verbose lifecycle myapp@0.0.0~start: CWD: C:\Users\asusj\Desktop\(4)express 4.x swig+stylus\myapp
+11 silly lifecycle myapp@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1028:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (F:\Program Files\node.js\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:186:7)
+12 verbose stack     at processEmit (F:\Program Files\node.js\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd C:\Users\asusj\Desktop\(4)express 4.x swig+stylus\myapp
+14 error Windows_NT 10.0.10240
+15 error argv "F:\\Program Files\\node.js\\node.exe" "F:\\Program Files\\node.js\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v7.6.0
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
